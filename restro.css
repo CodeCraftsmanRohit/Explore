@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 2vw;
+}
+.nav-left{
+    font-size: 1.7vw;
+    font-weight: 700;
+    width: 15vw;
+    color: #FF735C;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 7vw;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    align-self: center;
+    font-weight: 600;
+}
+.nav-right a:hover{
+    transform: scale(1.1);
+}
+.nav-right-ss{
+    display: flex;
+    gap:1vw;
+}
+.nav-right-ss button{
+    font-size: 1.3vw;
+    border-radius: 1vw;
+    font-weight: 700;
+    padding: .7vw 1vw;
+    align-self: center;
+    background-color:#FF735C;
+    color: black;
+    border: 0px;
+}
+.nav-right-ss button:hover{
+    transform: scale(1.1);
+}
+.page-1{
+    width: 100%;
+    height: 90vh;
+    background-image: url("/Byteverse_Resorces/homepagevectorimg.avif");
+    background-repeat: no-repeat;
+    background-position: 95% 50% ;
+    background-size: 50vw 30vw;
+}
+.page-1 h1{
+    font-size: 3.7vw;
+    line-height: 3.3vw;
+    letter-spacing: -2px;
+    font-weight: 550;
+    padding: 21vh 0px 0vw 2vw;
+}
+#explore{
+    color: black;
+    background-color: #FF735C;
+    text-decoration: underline;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.panel{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+.panel p{
+    border: 1px solid black;
+    color: #FF735C;
+    font-size: 3rem;
+    width: 40%;
+    padding-top: 25px;
+    margin: 25px;
+
+}
